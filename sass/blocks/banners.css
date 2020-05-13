@@ -1,0 +1,10 @@
+.banners {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banners__item {
+  width: 560px;
+}
+
+/*# sourceMappingURL=banners.css.map */

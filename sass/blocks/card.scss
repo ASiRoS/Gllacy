@@ -1,0 +1,43 @@
+.card {
+  box-sizing: border-box;
+  width: 560px;
+  padding-left: 20px;
+  padding-right: 25px;
+  border-radius: 20px;
+
+  &--white {
+    background-color: #fff;
+  }
+
+  &--chocolate {
+    background-color: #221108;
+    background-image: url("/img/bg-chocolate.jpg");
+  }
+
+  &--raspberry {
+    background-color: #a64966;
+    background-image: url("/img/bg-raspberry.jpg");
+  }
+
+  &--ice-cream {
+    background-color: #fff;
+    background-image: url("/img/bg-ice-cream.jpg");
+  }
+
+  &--letter {
+    padding: 5px;
+    background-image: url("/img/bg-letter-pattern.png");
+  }
+
+  &--waffle {
+    width: 100%;
+    padding-top: 30px;
+    background-color: #f0e4cb;
+    background-image: url("/img/bg-waffle-pattern.jpg");
+  }
+
+  &--address {
+    background-color: #fff;
+  }
+}
+

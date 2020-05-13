@@ -1,0 +1,31 @@
+.address {
+  width: 310px;
+  padding-bottom: 40px;
+  color: #323232;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.address__content, .address__phone {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.address__title {
+  width: 150px;
+  margin-top: 32px;
+  margin-bottom: 5px;
+}
+
+.address__content {
+  margin: 0 0 20px;
+}
+
+.address__phone {
+  margin: 5px 0;
+}
+
+.address__working-time {
+  margin: 0 0 30px;
+}

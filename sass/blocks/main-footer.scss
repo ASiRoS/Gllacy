@@ -1,0 +1,38 @@
+.main-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.main-footer__menu {
+  width: 370px;
+}
+
+.main-footer__menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.main-footer__menu-item {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 5px;
+
+  &--heart::before {
+    position: absolute;
+    content: "";
+    background-image: url("/img/icon-heart.png");
+    left: 7px;
+    top: 2px;
+    width: 15px;
+    height: 13px;
+  }
+}
+
+.main-footer__menu-link {
+  text-decoration-color: $link-underline;
+}

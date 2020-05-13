@@ -1,0 +1,51 @@
+.slider {
+  position: relative;
+  display: flex;
+  flex-flow: wrap column;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.slider__wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.slider__text {
+  margin: 0 0 30px;
+  width: 670px;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+.slider__button {
+  align-self: center;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.slider__controls {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: space-between;
+  width: 85px;
+}
+
+.slider__input {
+  &:checked + .slider__control {
+    background-color: #fff;
+  }
+}
+
+.slider__control {
+  display: block;
+  width: 21px;
+  height: 21px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}

@@ -1,0 +1,21 @@
+.map {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url("/img/map-pin.png");
+    width: 80px;
+    height: 140px;
+    left: 320px;
+    top: 100px;
+  }
+}
+
+.map__address {
+  position: absolute;
+  right: 27px;
+  top: 60px;
+}
