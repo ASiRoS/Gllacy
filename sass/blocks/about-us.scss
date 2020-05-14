@@ -29,18 +29,18 @@
   }
 
   &--ice-cream::before {
-    background-image: url("img/icon-ice-cream.png");
+    background-image: url("../img/icon-ice-cream.png");
   }
 
   &--leaf::before {
-    background-image: url("img/icon-leaf.png");
+    background-image: url("../img/icon-leaf.png");
   }
 
   &--cow::before {
-    background-image: url("img/icon-cow.png");
+    background-image: url("../img/icon-cow.png");
   }
 
   &--thermometer::before {
-    background-image: url("img/icon-thermometer.png");
+    background-image: url("../img/icon-thermometer.png");
   }
 }
